@@ -1,0 +1,16 @@
+ext{
+    androidMinSdkVersion = 23
+    anroidTargetSdkVersion = 28
+    androidCompileSdkVersion = 28
+
+    appcompat = '1.0.2'
+    coreKtx = '1.0.1'
+    constraintlayout = '1.1.3'
+    okhttp = '3.12.1'
+    coroutine = '1.2.1'
+    cardView = '1.0.0'
+
+    pagine = '2.1.0'
+    lifecycle = '2.0.0'
+    room = '2.0.1-alpha07'
+}

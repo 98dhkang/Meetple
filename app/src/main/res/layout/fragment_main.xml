@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@drawable/common_google_signin_btn_icon_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/main_img" android:layout_weight="1"/>
+        <ImageView
+                android:src="@drawable/common_google_signin_btn_icon_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/main_talent_img" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+            android:text="닉네임"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_nickname"/>
+    <TextView
+            android:text="학교 학과"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_school_major"/>
+    <TextView
+            android:text="나이 키"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_age_tall"/>
+    <TextView
+            android:text="평점"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_rating"/>
+    <Button
+            android:text="사진수정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_img_btn"/>
+    <Button
+            android:text="프로필수정"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_profile_btn"/>
+    <Button
+            android:text="친구관리"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_friend_btn"/>
+    <Button
+            android:text="내방보기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/main_myRoomBtn"/>
+</LinearLayout>

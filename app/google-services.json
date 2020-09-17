@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "209305285780",
+    "firebase_url": "https://meetple-5d6cd.firebaseio.com",
+    "project_id": "meetple-5d6cd",
+    "storage_bucket": "meetple-5d6cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209305285780:android:980e37b70479b255f07081",
+        "android_client_info": {
+          "package_name": "com.project.meetple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209305285780-0h7trr1jnrnfbec6u153jqo6v5l0r5gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmMs4SnN_mYNDQEAiZe8V1ELHTWDB0lw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209305285780-0h7trr1jnrnfbec6u153jqo6v5l0r5gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

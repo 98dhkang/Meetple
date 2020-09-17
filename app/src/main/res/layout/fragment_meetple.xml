@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="미팅"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/meetple_meet_btn" android:layout_weight="1"/>
+        <Button
+                android:text="스터디"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/meetple_study_btn" android:layout_weight="1"/>
+        <Button
+                android:text="소모임"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/meetple_club_btn" android:layout_weight="1"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meetple_recycler"/>
+    <Button
+            android:text="방만들기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meetple_create_btn"/>
+</LinearLayout>

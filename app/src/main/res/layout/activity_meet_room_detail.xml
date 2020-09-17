@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/meet_room_detail_img1" android:layout_weight="1" android:visibility="invisible"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/meet_room_detail_img2" android:layout_weight="1" android:visibility="invisible"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/meet_room_detail_img3" android:layout_weight="1" android:visibility="invisible"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/meet_room_detail_img4" android:layout_weight="1" android:visibility="invisible"/>
+    </LinearLayout>
+    <TextView
+            android:text="사진을 눌러 자세한 프로필을 확인하세요!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meet_room_detail_text"/>
+    <TextView
+            android:text="제목"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meet_room_detail_title"/>
+    <TextView
+            android:text="내용"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meet_room_detail_content"/>
+    <Button
+            android:text="신청하기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meet_room_detail_btn"/>
+    <Button
+            android:text="삭제하기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/meet_room_detail_delete" android:visibility="gone"/>
+</LinearLayout>
